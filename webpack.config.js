@@ -50,5 +50,5 @@ module.exports = {
 
   devtool: NODE_ENV === 'production' ? false : 'inline-source-map',
 
-  mode: 'none',
+  mode: process.env.NODE_ENV,
 };
