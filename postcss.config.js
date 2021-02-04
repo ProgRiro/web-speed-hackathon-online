@@ -14,7 +14,7 @@ module.exports = {
 
     autoprefixer(),
 
-    customProperties(),
+    customProperties({ preserve: false }),
   ],
 
   map: false,
